@@ -1,0 +1,5 @@
+{
+  "name": "Ruleta Mágica de Sorteos",
+  "description": "Una aplicación interactiva de ruleta diseñada para realizar sorteos. Permite personalizar los nombres, girar la rueda con físicas realistas y obtener mensajes de felicitación generados por IA para los ganadores.",
+  "requestFramePermissions": []
+}
