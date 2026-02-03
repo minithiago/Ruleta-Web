@@ -102,7 +102,7 @@ const App: React.FC = () => {
       {/* Header */}
       <header className="text-center mb-12">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">
-          Ruleta Mágica
+          Ruleta de la suerte
         </h1>
         <p className="text-indigo-200/60 max-w-lg mx-auto text-lg">
           Personaliza tu sorteo, gira la rueda y deja que el destino elija al ganador.

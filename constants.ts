@@ -6,7 +6,7 @@ export const COLORS = [
 ];
 
 export const INITIAL_NAMES = [
-  'Ana', 'Bruno', 'Carla', 'Diego', 'Elena', 'Fernando', 'Gaby', 'Hugo'
+  'Ivan', 'Bruno', 'Carla', 'Diego', 'Elena', 'Fernando', 'Gaby', 'Hugo'
 ];
 
 export const CANVAS_SIZE = 500;
