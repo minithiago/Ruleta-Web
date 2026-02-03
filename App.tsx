@@ -23,7 +23,8 @@ const App: React.FC = () => {
   });
 
   const rotationRef = useRef(0);
-  const requestRef = useRef<number>();
+  // Fixed: useRef expects 1 argument (initial value) in some TypeScript configurations when using generic types.
+  const requestRef = useRef<number | undefined>(undefined);
 
   const addParticipant = (name: string) => {
     if (participants.length >= 24) {
@@ -109,7 +110,7 @@ const App: React.FC = () => {
         </p>
       </header>
 
-      <main className="grid grid-cols-1 lg:grid-cols-12 gap-12 w-full max-w-7xl items-start">
+      <main className="grid grid-cols-1 lg:grid-cols-12 gap-12 w-full max-w-7xl items-start flex-grow">
         {/* Left: Settings */}
         <div className="lg:col-span-4 order-2 lg:order-1">
           <ParticipantList 
@@ -180,8 +181,19 @@ const App: React.FC = () => {
         </div>
       </main>
 
-      {/* Footer / Features */}
-      
+      {/* Footer */}
+      <footer className="mt-16 py-8 border-t border-white/5 w-full max-w-7xl flex flex-col items-center justify-center gap-4">
+        <a 
+          href="https://github.com/minithiago/Ruleta-Web" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="group flex items-center gap-3 text-indigo-200/40 hover:text-indigo-400 transition-all duration-300 hover:scale-105"
+        >
+          <i className="fa-brands fa-github text-3xl"></i>
+          
+        </a>
+        
+      </footer>
     </div>
   );
 };
