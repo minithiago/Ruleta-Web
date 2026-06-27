@@ -1,17 +1,23 @@
 
-### https://ruleta-de-sorteos-355399487085.us-west1.run.app
+### https://ruleta-de-sorteos-394742169195.europe-west2.run.app/
 
-This contains everything you need to run your app locally.
+# 🎡 Lucky Wheel
 
-View your app in AI Studio: https://ai.studio/apps/drive/17djNoTffrKitnM7UL0Q3IBgDPY61AOMQ
+**Lucky Wheel** is a simple and interactive web application that helps you pick a random winner from a list of participants. Just enter the names, spin the wheel, and let luck decide!
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## ✨ Features
 
+- 🎯 Random winner selection
+- 📝 Add and remove participants easily
+- 🎡 Smooth spinning wheel animation
+- 🎨 Clean and responsive user interface
+- ⚡ Fast and lightweight
+- 📱 Works on desktop and mobile devices
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 📸 Preview
+
+<img width="2540" height="1257" alt="image" src="https://github.com/user-attachments/assets/6f55b9e0-77fd-4a21-b669-00480431050f" />
