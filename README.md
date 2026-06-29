@@ -1,23 +1,23 @@
 
 ### https://ruleta-de-sorteos-394742169195.europe-west2.run.app/
 
-# 🎡 Lucky Wheel
+# 🎡 Ruleta de la suerte
 
-**Lucky Wheel** is a simple and interactive web application that helps you pick a random winner from a list of participants. Just enter the names, spin the wheel, and let luck decide!
-
----
-
-## ✨ Features
-
-- 🎯 Random winner selection
-- 📝 Add and remove participants easily
-- 🎡 Smooth spinning wheel animation
-- 🎨 Clean and responsive user interface
-- ⚡ Fast and lightweight
-- 📱 Works on desktop and mobile devices
+**Ruleta de la suerte** es una aplicación web sencilla e interactiva que te ayuda a elegir un ganador al azar de una lista de participantes. ¡Solo tienes que introducir los nombres, girar la rueda y dejar que la suerte decida!
 
 ---
 
-## 📸 Preview
+## ✨ Características
+
+- 🎯 Selección aleatoria del ganador
+- 📝 Añade y elimina participantes fácilmente
+- 🎡 Animación fluida de la rueda al girar
+- 🎨 Interfaz de usuario limpia y adaptable (responsive)
+- ⚡ Rápida y ligera
+- 📱 Funciona en dispositivos de escritorio y móviles
+
+---
+
+## 📸 Vista previa
 
 <img width="2540" height="1257" alt="image" src="https://github.com/user-attachments/assets/6f55b9e0-77fd-4a21-b669-00480431050f" />
